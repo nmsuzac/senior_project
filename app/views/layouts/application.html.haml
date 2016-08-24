@@ -11,7 +11,10 @@
   %header.main_header.clearfix
     .container
       #logo 
-        %p= link_to "Senior Project Forum", root_path
+        - if user_signed_in?
+          %p= link_to "NMSU ICT435 Senior Project Forum", root_path
+        - else
+          %p= link_to "Senior Project Forum", root_path
       #buttons
         - if user_signed_in?
           = link_to "New Post", new_post_path
