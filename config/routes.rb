@@ -1,17 +1,17 @@
 Rails.application.routes.draw do
-  get 'static_pages/team'
+  get 'senior_team/michael'
 
-  get 'static_pages/client'
+  get 'senior_team/team'
 
-  get 'static_pages/zac'
+  get 'senior_team/client'
 
-  get 'static_pages/eric'
+  get 'senior_team/zac'
 
-  get 'static_pages/shawna'
+  get 'senior_team/eric'
 
-  get 'static_pages/michale'
+  get 'senior_team/shawna'
 
-  get 'static_pages/bryant'
+  get 'senior_team/bryant'
 
   devise_for :users, :controllers => { registrations: 'registrations' }
   resources :posts do

@@ -21,6 +21,7 @@
       #buttons
         - if user_signed_in?
           = link_to "New Post", new_post_path
+          = link_to "Team", senior_team_team_path
           = link_to "Edit Profile", edit_user_registration_path
           = link_to "Sign out", destroy_user_session_path, method: :delete
         - else
