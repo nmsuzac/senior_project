@@ -20,4 +20,6 @@ class SeniorTeamController < ApplicationController
   def michael
   end
   
+  def louis
+  end
 end

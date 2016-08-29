@@ -1,4 +1,5 @@
-= simple_form_for @post do |f|
-  = f.input :title
-  = f.input :content
-  = f.submit
+#new_form
+  = simple_form_for @post do |f|
+    = f.input :title, :class => 'input'
+    = f.input :content
+    = f.submit
