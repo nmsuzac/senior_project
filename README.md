@@ -5,3 +5,5 @@
 
 #### This is a project forum to all our team to communicate together; however, this is not our Senior Project!
 #### This project is available on heroku now
+
+### Updating this for school
