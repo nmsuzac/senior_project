@@ -13,6 +13,9 @@
  *= require_tree .
  *= require_self
  */
+
+ @import "bootstrap";
+ 
 body {
   font-family: 'Dosis', sans-serif;
   background: #EDEFF0;
