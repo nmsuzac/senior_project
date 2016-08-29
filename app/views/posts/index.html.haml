@@ -7,5 +7,6 @@
         = time_ago_in_words(post.created_at)
         ago by
         = post.user.firstname
-      
-      
+  
+  = will_paginate @post, inner_window: 2, outer_window: 0
+  
