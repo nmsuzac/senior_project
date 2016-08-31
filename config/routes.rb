@@ -12,6 +12,8 @@ Rails.application.routes.draw do
   get 'senior_team/shawna'
 
   get 'senior_team/bryant'
+  
+  get 'senior_team/louis'
 
   devise_for :users, :controllers => { registrations: 'registrations' }
   resources :posts do
