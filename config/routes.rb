@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'information/checklist'
+
+  get 'information/links'
+
+  get 'information/index'
+
   get 'senior_team/michael'
 
   get 'senior_team/team'
